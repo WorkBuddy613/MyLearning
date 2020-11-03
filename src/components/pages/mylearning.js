@@ -60,28 +60,28 @@ class MyLearning extends Component {
     render() { 
         if (this.state.whichComponentToShow === "CourseIntro") {
             return (
-                <div>
+                <div class="container">
                     {this.navbar}
                     <CourseIntro></CourseIntro>
                 </div>
             );
         } else if (this.state.whichComponentToShow === "Syllabus") {
             return (
-                <div>
+                <div class="container">
                     {this.navbar}
                     <Syllabus></Syllabus>
                 </div>
             );
         } else if (this.state.whichComponentToShow === "Announcements") {
             return (
-                <div>
+                <div class="container">
                     {this.navbar}
                     <Announcements></Announcements>
                 </div>
             );
         } else if (this.state.whichComponentToShow === "Lessons") {
             return (
-                <div>
+                <div class="container">
                     {this.navbar}
                     <Lessons></Lessons>
                 </div>
